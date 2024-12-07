@@ -13,10 +13,6 @@ create temporary git repo
 ```
 
 ```bash
- git init
-```
-
-```bash
 git add .
 git commit -m "Initial commit for patch generation"
 ```
