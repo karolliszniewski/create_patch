@@ -1,13 +1,13 @@
 # create_patch
 
-go to module directory
+1. go to module directory
 
 
 ```bash
 cd vendor/vertexinc/validator-module
 ```
 
-create temporary git repo
+2. create temporary git repo
 ```bash
  git init
 ```
@@ -17,12 +17,9 @@ git add .
 git commit -m "Initial commit for patch generation"
 ```
 
-```bash
-git add .
-git commit -m "Initial commit for patch generation"
-```
+3. Now make changes
 
-and now generate patch (use ../ to back to the root directory)
+4. and now generate patch (use ../ to back to the root directory)
 
 ```bash
 git diff > ../../../patches/vertex-validator-missing-param.patch
